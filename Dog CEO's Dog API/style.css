@@ -1,0 +1,59 @@
+/* General reset and box-sizing */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: purple;
+    text-align: center;
+    padding: 2rem;
+}
+
+header {
+    background: brown;
+    color: #fff;
+    padding: 1rem 0;
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+main {
+    background: #fff;
+    padding: 2rem;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+
+button {
+    background: #007BFF;
+    color: #fff;
+    border: none;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background: #0056b3;
+}
+
+#dog-image-result {
+    margin-top: 1rem;
+}
+
+#dog-image-result img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+footer{
+    text-align: center;
+    font-size: 20px;
+
+}
